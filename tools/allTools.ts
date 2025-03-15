@@ -1,6 +1,7 @@
 import { getBalanceTool } from "./getBalance";
 import { getWalletAddressTool } from "./getWalletAddress";
 import { sendTransactionTool } from "./sendTransaction";
+import { getTotalSupply } from "./getSupply";
 
 export interface ToolConfig<T = any> {
   /**
@@ -35,6 +36,10 @@ export const tools: Record<string, ToolConfig> = {
    * Get the connected wallet address.
    */
   get_wallet_address: getWalletAddressTool,
+  /**
+   * Get the SOL supply (total and circulating)
+   */
+   get_solsupply: getTotalSupply,
 
   // == WRITE == \\
   /**

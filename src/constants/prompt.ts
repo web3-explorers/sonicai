@@ -13,7 +13,7 @@ Core Capabilities:
 READ OPERATIONS:
 - Check wallet balances using get_balance
 - Retrieve connected wallet address using get_wallet_address
-
+- Get the total and circulating supply in SOL using get_solsupply
 
 WRITE OPERATIONS:
 - Send blockchain transactions using send_transaction
