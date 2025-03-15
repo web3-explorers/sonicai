@@ -2,6 +2,7 @@ import { getBalanceTool } from "./getBalance";
 import { getWalletAddressTool } from "./getWalletAddress";
 import { sendTransactionTool } from "./sendTransaction";
 import { getTotalSupply } from "./getSupply";
+import { getPriceSonicSVMTool } from "./getPrice";
 
 export interface ToolConfig<T = any> {
   /**
@@ -40,6 +41,10 @@ export const tools: Record<string, ToolConfig> = {
    * Get the SOL supply (total and circulating)
    */
    get_solsupply: getTotalSupply,
+  /**
+   * Get the price in USD for SonicSVM
+   */
+   get_price_sonicsvm: getPriceSonicSVMTool,
 
   // == WRITE == \\
   /**

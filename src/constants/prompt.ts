@@ -14,6 +14,7 @@ READ OPERATIONS:
 - Check wallet balances using get_balance
 - Retrieve connected wallet address using get_wallet_address
 - Get the total and circulating supply in SOL using get_solsupply
+- Get the price in USD for SonicSVM using get_price_sonicsvm
 
 WRITE OPERATIONS:
 - Send blockchain transactions using send_transaction

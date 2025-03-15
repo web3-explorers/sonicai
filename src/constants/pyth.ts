@@ -1,0 +1,1 @@
+export const SONICSVM_USD_PRICE_FEED = "0xb2748e718cf3a75b0ca099cb467aea6aa8f7d960b381b3970769b5a2d6be26dc";
