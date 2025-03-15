@@ -164,7 +164,6 @@ The sequence diagram above shows the interaction flow between different componen
 **Company**: [Techgethr](https://www.techgethr.com/), a Blockchain and Web3 Venture Builder
 
 1. Nestor Campos (developer): https://www.linkedin.com/in/nescampos/
-2. Valentina Campos (prompt engineer and user experience) https://www.linkedin.com/in/valentina-campos-1a8959234/
 
 
 ## Contributing
